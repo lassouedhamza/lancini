@@ -11,7 +11,7 @@ import Peer from "peerjs";
 //   path: "peerjs/kingaspx",
 // });}
 const peer = new window.Peer(undefined, {
-  host: "localhost",
+  host: "codeveloperslancini.herokuapp.com",
   secure: false,
   port: 5000,
   path: "peerjs/kingaspx",
