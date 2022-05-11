@@ -6,8 +6,8 @@ import Projecti from "../Project/projecti";
 import { listprojects } from "./../../../actions/projectActions";
 import PostData from "../data/investors.json"
 import { Link } from 'react-router-dom';
+function HomeVisitor(props){
 
-const HomeVisitor= () => {
     const dispatch = useDispatch()
 
     const projectList = useSelector((state) => state.projectList)
