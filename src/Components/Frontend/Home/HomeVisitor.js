@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeaderVisitor from "../Header/HeaderVisitor";
 import Footer from "../Footer/Footer";
+import { Link } from 'react-router-dom';
 function HomeVisitor(props){
      
          return(
