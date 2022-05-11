@@ -5,7 +5,7 @@ import io from 'socket.io-client';
 import "../Chats.js/Chat.css";
 
 let socket;
-const CONNECTION_PORT = "localhost:3000/";
+const CONNECTION_PORT = "lancini-lassouedhamza.vercel.app/";
 function Chats() {
      //before login
   const [loggedIn, setLoggedIn] = useState(false);
